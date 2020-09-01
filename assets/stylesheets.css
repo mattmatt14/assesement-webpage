@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 850px;
+    height: 200px;
+    border: solid black 5px;
+    text-align: center;
+    background: royalblue;
+    margin: auto;
+
+
+}
+
+.container {
+    background: salmon;
+    
+
+
+}
+
+.container2{
+    background: salmon;
+    
+}
+
+
+.columns-1 {
+   
+    height: 400px;
+   width: 328px;
+   border: solid black 5px;
+   margin: auto;
+   position: relative;
+   left: -260px;
+   background: royalblue;
+}
+
+
+.columns-2{
+    
+    height: 400px;
+    width: 512px;
+    border: solid black 5px;
+    margin: auto;
+    position: relative;
+    right: -180px;
+    top: -398px;
+    background-image: url(../assets/images/Ginyu\,_Frieza\,_and_Vegeta_playing_SNES.jpg);
+    
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border: black solid 5px;
+    float: left;
+    top: -50px;
+    right: -52px;
+    position: relative;
+    background: url(../assets/images/systems.jpg);
+}
+
+
